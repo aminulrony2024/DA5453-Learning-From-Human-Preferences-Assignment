@@ -1,0 +1,6 @@
+{
+  "total_seconds": 3071.9884849998634,
+  "training_cell_seconds": 3063.515393199865,
+  "updates": 64,
+  "sampled_mps_driver_gib": null
+}

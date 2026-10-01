@@ -1,0 +1,20 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "beta": 0.1,
+  "epochs": 2,
+  "train_pairs": 64,
+  "validation_pairs": 125,
+  "learning_rate": 3e-06,
+  "seed": 42,
+  "max_length": 256,
+  "max_new_tokens": 128,
+  "decoding": "greedy",
+  "effective_pairs": 2,
+  "microbatch_pairs": 1,
+  "gradient_checkpointing": true,
+  "device": "cpu",
+  "torch": "2.14.0+cpu",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "save_weights": false
+}
